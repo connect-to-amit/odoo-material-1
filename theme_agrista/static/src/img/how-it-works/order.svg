@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400px" height="200px" viewBox="0 0 400 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>order</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="glyphicons-87-display" sketch:type="MSLayerGroup" transform="translate(102.000000, 0.000000)" fill="#FFFFFF">
+            <g id="display_2_" sketch:type="MSShapeGroup">
+                <g id="Group" transform="translate(16.500000, 16.500000)" opacity="0.3">
+                    <rect id="Rectangle-path" x="0" y="0" width="198" height="115.5"></rect>
+                </g>
+                <path d="M222.75,0 L8.25,0 C3.7125,0 0,3.7125 0,8.25 L0,148.5 C0,153.0375 3.7125,156.75 8.25,156.75 L99,156.75 L99,165 C99,181.5 82.88775,181.5 82.88775,181.5 L52.42875,181.5 C50.82,181.5 49.5,182.82 49.5,184.4205 L49.5,198 L181.5,198 L181.5,184.4205 C181.5,182.82 180.18,181.5 178.57125,181.5 L148.5,181.5 C148.5,181.5 132,181.5 132,165 L132,156.75 L222.75,156.75 C227.2875,156.75 231,153.0375 231,148.5 L231,8.25 C231,3.7125 227.2875,0 222.75,0 L222.75,0 Z M214.5,148.5 L206.25,148.5 L206.25,140.25 L214.5,140.25 L214.5,148.5 L214.5,148.5 Z M214.5,132 L16.5,132 L16.5,16.5 L214.5,16.5 L214.5,132 L214.5,132 Z" id="Shape"></path>
+            </g>
+        </g>
+        <g id="glyphicons-164-iphone" sketch:type="MSLayerGroup" transform="translate(344.000000, 51.000000)" fill="#FFFFFF">
+            <g id="iphone_1_" sketch:type="MSShapeGroup">
+                <g id="Group" transform="translate(8.000000, 16.000000)" fill-opacity="0.3">
+                    <rect id="Rectangle-path" x="0" y="0" width="40" height="60"></rect>
+                </g>
+                <g id="body_1_">
+                    <path d="M46,0 L10,0 C4.5,0 0,4.5 0,10 L0,86 C0,91.5 4.5,96 10,96 L46,96 C51.5,96 56,91.5 56,86 L56,10 C56,4.5 51.5,0 46,0 L46,0 Z M28,93.084 C24.084,93.084 20.912,89.912 20.912,86 C20.912,82.088 24.084,78.916 28,78.916 C31.912,78.916 35.084,82.088 35.084,86 C35.084,89.912 31.912,93.084 28,93.084 L28,93.084 Z M8,76 L8,16 L48,16 L48,76 L8,76 L8,76 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+        <g id="glyphicons-163-ipad" sketch:type="MSLayerGroup" transform="translate(0.000000, 40.000000)" fill="#FFFFFF">
+            <g id="ipad_2_" sketch:type="MSShapeGroup">
+                <path d="M82.962963,0 L8.2962963,0 C3.73333333,0 0,3.73333333 0,8.2962963 L0,103.703704 C0,108.266667 3.73333333,112 8.2962963,112 L82.962963,112 C87.5259259,112 91.2592593,108.266667 91.2592593,103.703704 L91.2592593,8.2962963 C91.2592593,3.73333333 87.5259259,0 82.962963,0 L82.962963,0 Z M45.6296296,110.651852 C42.9374815,110.651852 40.7555556,108.469926 40.7555556,105.777778 C40.7555556,103.08563 42.9374815,100.903704 45.6296296,100.903704 C48.3217778,100.903704 50.5037037,103.08563 50.5037037,105.777778 C50.5037037,108.469926 48.3217778,110.651852 45.6296296,110.651852 L45.6296296,110.651852 Z M78.8148148,99.5555556 L12.5564444,99.5555556 L12.4444444,99.5555556 L12.4444444,12.4444444 L78.8148148,12.4444444 L78.8148148,99.5555556 L78.8148148,99.5555556 Z" id="Shape"></path>
+                <path d="M78.8148148,99.5555556 L12.5564444,99.5555556 L12.4444444,99.5555556 L12.4444444,12.4444444 L78.8148148,12.4444444 L78.8148148,99.5555556 Z" id="Shape" opacity="0.3" fill-opacity="0.3"></path>
+            </g>
+        </g>
+        <g id="agrista-logo-white" sketch:type="MSLayerGroup" transform="translate(134.000000, 27.000000)" fill="#FFFFFF">
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="1.79596581" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="5.21476923" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="1.79596581" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="5.21476923" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="73.6633409" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="77.0891158" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="73.6633409" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="77.0891158" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="70.2375661" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="70.2375661" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="49.6829168" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="49.6829168" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="46.2571419" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="42.831367" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="46.2571419" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="42.831367" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="32.5540424" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="32.5540424" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="32.5540424" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="18.8509429" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="18.8509429" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="15.425168" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="11.9993931" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="8.57361827" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="15.425168" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="11.9993931" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="8.57361827" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="5.14784339" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="1.72206852" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="5.14784339" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="8.57361827" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="1.72206852" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="5.14784339" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="1.72206852" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="5.14784339" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="101.06954" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="104.495315" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="107.92109" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="94.2179902" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="101.06954" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="104.495315" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="107.92109" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="114.772639" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="94.2179902" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="114.772639" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="101.06954" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="104.495315" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="107.92109" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="101.06954" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="104.495315" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="107.92109" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="1.79596581" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="1.79596581" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="5.21476923" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="5.21476923" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="8.63357265" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="8.63357265" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="121.624189" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="121.624189" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="131.901514" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="135.327289" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="131.901514" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="135.327289" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="1.72206852" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="5.14784339" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="8.57361827" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="18.8509429" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="5.14784339" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="8.57361827" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="11.9993931" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="15.425168" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="18.8509429" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="8.57361827" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="11.9993931" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="15.425168" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="22.2767178" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="25.7024927" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="32.5540424" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="49.6829168" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="42.831367" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="46.2571419" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="49.6829168" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="42.831367" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="46.2571419" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="32.5540424" cy="39.4028034" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="39.4028034" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="32.5540424" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="35.9798173" cy="46.2404103" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="42.831367" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="39.4055922" cy="46.2404103" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="42.831367" cy="46.2404103" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="46.2571419" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="46.2571419" cy="46.2404103" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="49.6829168" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="49.6829168" cy="46.2404103" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="42.8216068" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="53.1086917" cy="39.4028034" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="56.5344666" cy="39.4028034" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="63.3860163" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="66.8117912" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="83.9406656" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="87.3664405" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="94.2179902" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="94.2179902" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="97.6437651" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="114.772639" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="114.772639" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="101.06954" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="104.495315" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="107.92109" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="101.06954" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="104.495315" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="107.92109" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="111.346865" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="125.049964" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="128.475739" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="131.901514" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="135.327289" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="131.901514" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="135.327289" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="159.307713" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="159.307713" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="155.881938" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="152.456163" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="149.030388" cy="12.0523761" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="155.881938" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="152.456163" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="149.030388" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="145.604613" cy="15.4711795" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="142.178838" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="145.604613" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="149.030388" cy="18.8899829" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="142.178838" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="145.604613" cy="22.3087863" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="142.178838" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="145.604613" cy="25.7275897" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="142.178838" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="145.604613" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="149.030388" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="159.307713" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="29.1463932" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="145.604613" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="149.030388" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="152.456163" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="155.881938" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="159.307713" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="32.5651966" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="149.030388" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="152.456163" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="155.881938" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="162.733488" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+            <ellipse id="Oval" sketch:type="MSShapeGroup" cx="166.159263" cy="35.984" rx="1.71288744" ry="1.70940171"></ellipse>
+        </g>
+        <rect id="Rectangle-4" fill="#FFFFFF" sketch:type="MSShapeGroup" x="134" y="83" width="168" height="13"></rect>
+        <rect id="Rectangle-4-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" x="134" y="100" width="53" height="25"></rect>
+        <rect id="Rectangle-4-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="191" y="100" width="53" height="25"></rect>
+        <rect id="Rectangle-4-Copy-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="249" y="100" width="53" height="25"></rect>
+    </g>
+</svg>

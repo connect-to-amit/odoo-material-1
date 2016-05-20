@@ -1,0 +1,38 @@
+/* ----------------------------------
+ * Header Blocks
+ * ---------------------------------- */
+
+.block-header {
+  /* margin-top: -82px;*/
+  height: @block-header-height;
+}
+
+.home-header {
+  background: rgba(0, 0, 0, 0.65);;
+  width: 100%;
+  //display: block;
+  //position: relative;
+  &:after {
+    content: "";
+    background: url(/theme_agrista/static/src/img/home-tractor-iphone.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.benefits-header {
+  background-image: url(/theme_agrista/static/src/img/farmer-sheep.jpg);
+  .jumbotron {
+    color: @white;
+    background-color: @brand-primary;
+  }
+    .text-muted {
+    color: @light-green-50;
+  }
+}

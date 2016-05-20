@@ -1,0 +1,5 @@
+@mixin box-shadow($bsval: 0px 1px 4px #777) {
+  -moz-box-shadow: $bsval;
+  -webkit-box-shadow: $bsval;
+  box-shadow: $bsval;
+}

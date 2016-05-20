@@ -1,0 +1,114 @@
+a {
+  color: #689F38; }
+
+.navbar-inverse {
+  background-color: #5D4037;
+  border-color: #4E342E; }
+  .navbar-inverse .navbar-nav > .active > a {
+    background-color: #4E342E; }
+    .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+      background-color: #4E342E; }
+  .navbar-inverse .navbar-nav > li > a {
+    color: #D7CCC8; }
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+      color: #fff; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #689F38;
+  border-color: #5c8c31; }
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: #436624; }
+
+.openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {
+  background-color: #689F38; }
+
+.openerp .oe_secondary_menu_section {
+  color: #689F38; }
+.openerp .oe-view-manager-header {
+  border-bottom: 1px solid #b2b5b0; }
+.openerp .oe_searchview.oe_focused {
+  border-color: #8BC34A;
+  -moz-box-shadow: 0 1px 2px #8BC34A inset;
+  -webkit-box-shadow: 0 1px 2px #8BC34A inset;
+  box-shadow: 0 1px 2px #8BC34A inset; }
+.openerp .oe_searchview .oe_searchview_facets .oe_searchview_facet:focus {
+  border-color: #8BC34A;
+  -moz-box-shadow: 0 0 3px 1px #8BC34A;
+  -webkit-box-shadow: 0 0 3px 1px #8BC34A;
+  box-shadow: 0 0 3px 1px #8BC34A; }
+.openerp .oe_searchview .oe_searchview_facets .oe_searchview_facet .oe_facet_values {
+  background: #F1F8E9; }
+.openerp .oe_searchview .oe_searchview_facets .oe_searchview_facet .oe_facet_value {
+  border-left: 1px solid #b2b5b0; }
+.openerp .oe_searchview .oe_searchview_facets .oe_searchview_facet .oe_facet_remove {
+  color: #9cb586; }
+  .openerp .oe_searchview .oe_searchview_facets .oe_searchview_facet .oe_facet_remove:hover {
+    background: #9cb586; }
+.openerp .oe_searchview .oe-autocomplete {
+  border: 1px solid #b2b5b0; }
+  .openerp .oe_searchview .oe-autocomplete ul li.oe-selection-focus {
+    background-color: #689F38; }
+  .openerp .oe_searchview .oe-autocomplete ul li.oe-separator {
+    border-top: 1px solid #b2b5b0; }
+.openerp .oe_horizontal_separator {
+  color: #689F38; }
+.openerp .oe_button.oe_link span {
+  color: #689F38; }
+.openerp .oe_stat_button .stat_button_icon {
+  color: #689F38; }
+.openerp .oe_application .oe-view-manager-body a {
+  color: #689F38; }
+.openerp .ui-widget-content a {
+  color: #689F38; }
+.openerp .oe_stat_button:hover {
+  color: #689F38; }
+.openerp .oe_fileupload .oe_add button.oe_attach {
+  color: #689F38; }
+.openerp .oe_fileupload .oe_add .oe_attach_label {
+  color: #689F38; }
+.openerp .oe_form .oe_form_required input:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required select:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required textarea:not([disabled]):not([readonly]) {
+  background-color: #F2FFD4 !important; }
+.openerp .oe_form_editable .oe_list_editable .oe_list_content td.oe_required {
+  background-color: #F2FFD4; }
+.openerp .oe_list.oe_list_editable.oe_editing .oe_form_field input, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field textarea {
+  border: 1px solid #689F38; }
+.openerp ul.oe_form_status_clickable li > .label {
+  color: #689F38; }
+.openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {
+  background-color: #689F38; }
+.openerp .nav-pills > li.active a:hover, .openerp .nav-pills > li.active a:focus, .openerp a.list-group-item.active a:hover, .openerp a.list-group-item.active a:focus {
+  background-color: #689F38; }
+.openerp .nav-pills > li.active .badge, .openerp a.list-group-item.active .badge {
+  color: #689F38; }
+.openerp .badge {
+  background-color: #689F38; }
+.openerp .oe_tag {
+  background: #F1F8E9; }
+.openerp .oe_tag_dark {
+  background: #689F38; }
+
+.ui-menu {
+  border: 1px solid #b2b5b0; }
+  .ui-menu .ui-menu-item {
+    background: #F1F8E9; }
+  .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+    background: #689F38; }
+
+.ui-tabs .ui-tabs-nav li:hover, .ui-tabs .ui-tabs-nav li a:hover {
+  color: #689F38; }
+
+.text-core .text-wrap .text-tags .text-tag .text-button {
+  border: 1px solid #AED581;
+  background: #DCEDC8; }
+
+.openerp .oe_kanban_view .oe_kanban_quick_create input:focus {
+  border: 1px solid #DCEDC8; }
+
+.openerp .oe_view_manager table.oe_view_manager_header h2 a {
+  color: #558B2F; }
+
+.openerp .oe_application a {
+  color: #689F38; }
+
+/*# sourceMappingURL=web.less.map */

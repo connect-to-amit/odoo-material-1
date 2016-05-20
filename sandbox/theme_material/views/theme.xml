@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="theme_customize" inherit_id="website.theme_customize" name="theme_customize Material">
+            <xpath expr="div" position="replace">
+
+                <div id="theme_customize_modal" class="modal fade bs-example-modal-sm">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="loading_backdrop"/>
+                            <div class="modal-header">
+                                <button type="button" class="close">×</button>
+                                <h4 class="modal-title">Customize your theme</h4>
+                            </div>
+                            <div class="modal-body">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label class="checked">
+                                                <img style="width: 120px; height: 70px;"
+                                                     src="/theme_material/static/src/img/material_default_thumbnail.png"
+                                                     alt="Default Theme"/>
+                                                <input name="theme" type="radio" data-xmlid="" checked="checked"/>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <img style="width: 120px; height: 70px;"
+                                                     src="/theme_material/static/src/less/agrista/thumbnail.png"
+                                                     alt="Agrista Theme"/>
+                                                <input name="theme" type="radio"
+                                                       data-xmlid="theme_material.theme_agrista"/>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <img style="width: 120px; height: 70px;"
+                                                     src="/theme_material/static/src/less/taproot/thumbnail.png"
+                                                     alt="Taproot"/>
+                                                <input name="theme" type="radio"
+                                                       data-xmlid="theme_material.theme_taproot"/>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </xpath>
+        </template>
+
+        <!--
+             Core Styles
+        -->
+
+        <template id="theme_material.assets_frontend" name="Material" inherit_id="website.assets_frontend" active="True"
+                  priority="1">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/variables.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/colors.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/form.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/welljumbo.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/buttons.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/checkboxes.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/togglebutton.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/radios.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/inputs-size.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/inputs.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/lists.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/navbar.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/alerts.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/progress.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/typography.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/tabs.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/popups.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/cards.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/dialogs.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/panels.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/dividers.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/themes.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/plugins/plugin-snackbarjs.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/plugins/plugin-nouislider.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/plugins/plugin-selectize.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/plugins/plugin-dropdownjs.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/mixins.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/shadows.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/core.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less"
+                      href='/theme_material/static/src/lib/bootstrap-material-design/ripples.less'
+                      t-ignore="true"/>
+            </xpath>
+        </template>
+
+        <!--
+             All Default Themes
+        -->
+
+        <template id="theme_material.theme_agrista" name="Agrista" inherit_id="website.assets_frontend" active="False"
+                  customize_show="False">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/less" href='/theme_material/static/src/less/agrista/material.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less" href='/theme_material/static/src/less/agrista/variables.less'
+                      t-ignore="true"/>
+            </xpath>
+        </template>
+
+        <template id="theme_material.theme_taproot" name="Taproot" inherit_id="website.assets_frontend" active="False"
+                  customize_show="False">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/less" href='/theme_material/static/src/less/taproot/material.less'
+                      t-ignore="true"/>
+                <link rel="stylesheet" type="text/less" href='/theme_material/static/src/less/taproot/variables.less'
+                      t-ignore="true"/>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>

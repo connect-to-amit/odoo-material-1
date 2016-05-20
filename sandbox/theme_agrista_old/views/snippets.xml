@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="ag_masthead" inherit_id="website.snippets" name="Agrista Masthead">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_jumbotron.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Masthead</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="ag-masthead">
+                            <div class="container">
+                                <div class="ag-masthead-caption">
+                                    <h1>Manage your farm finances better, together.</h1>
+                                    <h2>Powerful financial resource planning tools for farm operators.</h2>
+                                    <p>Securely manage your risk reserves, cash flows, and profit margins in one
+                                        convenient place.
+                                    </p>
+                                    <p>
+                                        <a class="btn btn-lg btn-primary" href="/page/website.contactus" role="button">
+                                            Contact us
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="enterprise_message" inherit_id="website.snippets" name="Agrista Enterprise Message">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_jumbotron.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Enterprise Message</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="jumbotron jumbotron-enterprise">
+                            <div class="container">
+                                <div class="row">
+                                    <h2>Enterprise</h2>
+                                    <h3 class="hidden-xs">The better way for managing your procurement. For farmers and
+                                        agribusiness.
+                                    </h3>
+                                    <a class="btn btn-primary btn-lg" href="/page/website.contactus">Request a trial</a>
+
+                                    <div class="jumbotron-screenshots">
+                                        <div class="jumbotron-screenshot mobile">
+                                            <img alt="Enterprise install terminal small"
+                                                 src="/website_agrista/static/src/img/mobile.png"/>
+                                        </div>
+                                        <div class="jumbotron-screenshot enterprise">
+                                            <img alt="Enterprise big" src="/website_agrista/static/src/img/home.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="title" inherit_id="website.snippets" name="Agrista Page Title">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Title</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="page-title">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h1 class="text-center">Page Title</h1>
+                                        <h3 class="text-muted text-center">And a great subtitle too</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="features" inherit_id="website.snippets" name="Agrista Features">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_features.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Features</span>
+                    </div>
+                    <section class="oe_snippet_body mb16 features">
+                        <div class="container">
+                            <div class="row mt16 mb16">
+                                <div class="col-md-4 text-center">
+                                    <span class="feature-icon">
+                                        <i class="icon ag-settings"/>
+                                    </span>
+                                    <h3 class="mt8 mb0">Plan your finances</h3>
+                                    <div class="text-muted">Securely manage your farm data and use powerful tools to
+                                        plan the financing requirements of your farm operations.
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <span class="feature-icon">
+                                        <i class="icon ag-stats"/>
+                                    </span>
+                                    <h3 class="mt8 mb0">Benchmark costs</h3>
+                                    <div class="text-muted">Easily set up or join existing groups to securely share
+                                        enterprise revenue and costs and benchmark against the group average.
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <span class="feature-icon">
+                                        <i class="icon ag-share-alt"/>
+                                    </span>
+                                    <h3 class="mt8 mb0">Manage your business network</h3>
+                                    <div class="text-muted">Securily control with whom you share your data and remain
+                                        updated on services provided by your creditors, input supliers and off-takers.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="featurette_text_image" inherit_id="website.snippets" name="Agrista Featurette Text Image">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/website/static/src/img/blocks/block_text_image.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Feature Txt-Img</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="container featurette">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h2 class="featurette-heading">Customer wall maps.
+                                        <span class="text-muted">See your customers like you've never seen them
+                                            before.
+                                        </span>
+                                    </h2>
+                                    <p class="lead">We provide easy tools for you to pin customers and the farms they
+                                        manage. Gain new insights into your market share and distances your customer
+                                        representatives have to travel to service customers.
+                                    </p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="featurette-image img-responsive pull-right"
+                                         src="/images/enterprise/wall-map.png" alt="Enterprise WallMap"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="featurette_image_text" inherit_id="website.snippets" name="Agrista Featurette Image Text">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/website/static/src/img/blocks/block_image_text.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Feature Img/Txt</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="container featurette">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img class="featurette-image img-responsive pull-right"
+                                         src="/images/enterprise/wall-map.png" alt="Enterprise WallMap"/>
+                                </div>
+                                <div class="col-md-7">
+                                    <h2 class="featurette-heading">Customer wall maps.
+                                        <span class="text-muted">See your customers like you've never seen them
+                                            before.
+                                        </span>
+                                    </h2>
+                                    <p class="lead">We provide easy tools for you to pin customers and the farms they
+                                        manage. Gain new insights into your market share and distances your customer
+                                        representatives have to travel to service customers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="call_to_action" inherit_id="website.snippets" name="Ag Call to Action">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_button.png"/>
+                        <span class="oe_snippet_thumbnail_title">Call to Action</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="container call-to-action">
+                            <div class="row ">
+                                <h1>Do you do business with farmers?</h1>
+                                <p class="lead">Share data. Build better relationships. Improve your services today.</p>
+                                <a class="btn btn-primary btn-large" href="/en-ZA/enterprise">Learn more</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="tagline" inherit_id="website.snippets" name="Tagline">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png"/>
+                        <span class="oe_snippet_thumbnail_title">Tagline</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="container tagline">
+                            <div class="row">
+                                <h1>Your workspace for staying on top of your business</h1>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="plans" inherit_id="website.snippets" name="Agrista Plans">
+            <xpath expr="//div[@id='snippet_feature']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/website/static/src/img/blocks/block_comparison.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag Plans</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="container mt32">
+                            <div class="panel panel-default pricing">
+                                <table class="unit table price-primary">
+                                    <thead>
+                                        <tr>
+                                            <th class="price-title"/>
+                                            <th class="price-title">Non-profit</th>
+                                            <th class="price-title">Basic</th>
+                                            <th class="price-title">Standard</th>
+                                            <th class="price-title">Plus</th>
+                                            <th class="price-title">Premium</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td/>
+                                            <td class="price-body">
+                                                <h4>Free</h4>
+                                            </td>
+                                            <td class="price-body">
+                                                <h4>720 €</h4>
+                                                <p>/ month</p>
+                                            </td>
+                                            <td class="price-body">
+                                                <h4>3,600 €</h4>
+                                                <p>/ month</p>
+                                            </td>
+                                            <td class="price-body">
+                                                <h4>14,400 €</h4>
+                                                <p>/ month</p>
+                                            </td>
+                                            <td class="price-body">
+                                                <h4>Call Us</h4>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="price-feature">Users</td>
+                                            <td>Unlimited</td>
+                                            <td>10 Users</td>
+                                            <td>50 Users</td>
+                                            <td>200 Users</td>
+                                            <td>1000 Users</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="price-feature">Customer accounts</td>
+                                            <td>Unlimited Members</td>
+                                            <td>100 Customers</td>
+                                            <td>1000 Customers</td>
+                                            <td>4000 Customers</td>
+                                            <td>Unlimited Customers</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="price-feature">Online support</td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="price-feature">Telephonic support</td>
+                                            <td>
+                                                <i class="icon ag-close"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="price-feature">Account manager</td>
+                                            <td>
+                                                <i class="icon ag-close"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-close"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-close"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-close"/>
+                                            </td>
+                                            <td>
+                                                <i class="icon ag-checkmark-circled"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="price-foot"/>
+                                            <td class="price-foot">
+                                                <a href="/page/contactus" class="btn btn-primary">Sign up</a>
+                                            </td>
+                                            <td class="price-foot">
+                                                <a href="/page/contactus" class="btn btn-primary">Sign up</a>
+                                            </td>
+                                            <td class="price-foot">
+                                                <a href="/page/contactus" class="btn btn-primary">Sign up</a>
+                                            </td>
+                                            <td class="price-foot">
+                                                <a href="/page/contactus" class="btn btn-primary">Sign up</a>
+                                            </td>
+                                            <td class="price-foot">
+                                                <a href="/page/contactus" class="btn btn-primary">Sign up</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="faq" inherit_id="website.snippets" name="Agrista FAQ">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Thubnail -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_faq.png"/>
+                        <span class="oe_snippet_thumbnail_title">Ag FAQ</span>
+                    </div>
+                    <!-- Snippet Body -->
+                    <section class="oe_snippet_body">
+                        <div class="faq">
+                            <div class="container">
+                                <h2 class="page-header">
+                                    Point of Sale Questions
+                                    <small>v7</small>
+                                </h2>
+                                <h3>
+                                    Which hardware does Odoo POS support?
+                                </h3>
+                                <p>
+                                    Odoo's POS is a web application that can run on any device that
+                                    can display websites with little to no setup required.
+                                </p>
+                                <p>
+                                    The Point of Sale works perfectly on any kind of touch enabled
+                                    device, whether it's multi-touch tablets like an iPad or
+                                    keyboardless resistive touchscreen terminals.
+                                </p>
+                                <h3>
+                                    Does it works offline?
+                                </h3>
+                                <p>
+                                    Deploy new stores with just an internet connection: no
+                                    installation, no specific hardware required. It works with any
+                                    iPad, Tablet PC, laptop or industrial POS machine.
+                                </p>
+                                <p>
+                                    While an internet connection is required to start the Point of
+                                    Sale, it will stay operational even after a complete disconnection.
+                                </p>
+
+                                <h2 class="page-header">
+                                    Project Management Questions
+                                    <small>v7</small>
+                                </h2>
+                                <h3>
+                                    Can I use it to manage projects based on agile methodologies?
+                                </h3>
+                                <p>
+                                    Yes.
+                                </p>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</openerp>

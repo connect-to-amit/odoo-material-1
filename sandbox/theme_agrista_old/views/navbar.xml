@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="Agrista Navbar">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/theme_agrista/static/src/js/navbar.js"/>
+            </xpath>
+        </template>
+
+        <template id="agrista_navbar" inherit_id="website.layout">
+            <xpath expr="//header" position="replace">
+                <header>
+                    <div id="ag-navbar" class="navbar navbar-default navbar-absolute-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target=".navbar-top-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"/>
+                                    <span class="icon-bar"/>
+                                    <span class="icon-bar"/>
+                                </button>
+                                <a href="/" class="navbar-brand logo">
+                                    <img src="/theme_agrista/static/src/img/agrista-logo.svg"/>
+                                </a>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-top-collapse">
+                                <ul class="nav navbar-nav navbar-right" id="top_menu">
+                                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                        <t t-call="website.submenu"/>
+                                    </t>
+                                    <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+                                    <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <b>
+                                                <span t-esc="user_id.name"/>
+                                                <span class="caret"/>
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu js_usermenu" role="menu">
+                                            <li>
+                                                <a href="/web" role="menuitem">My Account</a>
+                                            </li>
+                                            <li>
+                                                <a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </xpath>
+        </template>
+        <template id="copyright" name="Agrista Copyright" inherit_id="website.layout_footer_copyright">
+            <xpath expr="//div[@class='container mt16 mb8']" position="replace">
+                <div class="footer">
+                    <div class="container">
+                        <div class="pull-left text-muted">
+                            Copyright &amp;copy;
+                            <span t-field="res_company.name">Agrista</span>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</openerp>
