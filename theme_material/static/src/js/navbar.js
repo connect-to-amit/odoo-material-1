@@ -5,7 +5,11 @@ $(document).ready(function () {
         offset = $('#oe_main_menu_navbar').height(),
         swapStart = 50 + offset;
 
-    if (location.pathname == '/' || location.href.indexOf("enterprise") !== -1) {
+    console.log(location.pathname);
+    console.log(location.href.indexOf("blog"));
+    console.log(location.href.indexOf("contactus"));
+
+    if (location.href.indexOf("blog") || location.href.indexOf("contactus") !== -1) {
 
         navbar.removeClass('navbar-static-top');
         navbar.addClass('navbar-fixed-top');
@@ -27,6 +31,3 @@ $(document).ready(function () {
         })
     }
 });
-
-
-

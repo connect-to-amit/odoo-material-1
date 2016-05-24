@@ -15,9 +15,11 @@
     width: 100%;
   }
 }
+
 .block-overflow-hidden {
   overflow: hidden;
 }
+
 .block-bg-clip {
   position: absolute;
   top: -25px;
@@ -26,6 +28,7 @@
   left: 0;
   overflow: hidden;
 }
+
 .block-bg {
   position: absolute;
   top: 25px;
@@ -35,6 +38,7 @@
   overflow: hidden;
   transform: rotate(-2deg);
 }
+
 .block-bg-img {
   position: absolute;
   top: -25px;
@@ -46,18 +50,23 @@
   background-repeat: no-repeat;
   transform: rotate(2deg);
 }
+
 .block-inverse .block-bg-img {
   background-color: @block-inverse-bg;
 }
+
 .block-shaded .block-bg-img {
   background-color: @block-shaded-bg;
 }
+
 .block-bg-img-top {
   background-position: top;
 }
+
 .block-bg-img-bottom {
   background-position: bottom;
 }
+
 .block-bordered-lg:before,
 .block-bordered:before {
   position: absolute;
@@ -72,9 +81,11 @@
   border-top-color: #ccc; // ie 8
   border-top-color: rgba(0, 0, 0, .1);
 }
+
 .block-bordered-lg:before {
   width: 80%;
 }
+
 .block-paralax {
   background-attachment: fixed;
 }
@@ -96,8 +107,8 @@
     border-color: rgba(255, 255, 255, .2);
   }
 
-  h1,h2,h3,h4,h5,h6,
-  .h1,.h2,.h3,.h4,.h5,.h6 {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
     color: inherit;
   }
 
@@ -106,6 +117,7 @@
 .block-transparent {
   background-color: transparent;
 }
+
 .block-background {
   position: absolute;
   top: 0;
@@ -119,11 +131,13 @@
     height: 100%;
   }
 }
+
 .block-foreground {
   position: relative;
   z-index: 2;
   display: inline-block;
 }
+
 .block-fill-height {
   display: table;
   width: 100%;
@@ -138,6 +152,7 @@
   color: @brand-primary;
   text-transform: uppercase;
 }
+
 .h1.block-title,
 h1.block-title {
   font-size: @block-title-font-size;
@@ -147,6 +162,7 @@ h1.block-title {
 .block .lead {
   font-size: @block-lead-font-size;
 }
+
 .block-angle {
   margin-bottom: -25px;
 }
@@ -158,9 +174,11 @@ h1.block-title {
   display: table-cell;
   vertical-align: middle;
 }
+
 .block-xs-bottom {
   vertical-align: bottom;
 }
+
 .block-xs-top {
   vertical-align: top;
 }
@@ -172,13 +190,16 @@ h1.block-title {
     display: table-cell;
     vertical-align: middle;
   }
+
   .block-sm-bottom {
     vertical-align: bottom;
   }
+
   .block-sm-top {
     vertical-align: top;
   }
 }
+
 @media (min-width: @screen-md-min) {
   .block-md-top,
   .block-md-bottom,
@@ -186,9 +207,11 @@ h1.block-title {
     display: table-cell;
     vertical-align: middle;
   }
+
   .block-md-bottom {
     vertical-align: bottom;
   }
+
   .block-md-top {
     vertical-align: top;
   }
@@ -201,9 +224,11 @@ h1.block-title {
     display: table-cell;
     vertical-align: middle;
   }
+
   .block-lg-bottom {
     vertical-align: bottom;
   }
+
   .block-lg-top {
     vertical-align: top;
   }
@@ -217,6 +242,7 @@ h1.block-title {
       font-size: @block-lead-font-size-sm;
     }
   }
+
   .h1.block-title,
   h1.block-title {
     font-size: @block-title-font-size-sm;
@@ -229,7 +255,15 @@ h1.block-title {
 
 .block-header {
   /* margin-top: -82px;*/
-  height: @block-header-height;
+  padding-top: 115px;
+  padding-bottom: 0px;
+  min-height: @block-header-height;
+  h1 {
+    font-size: 56px;
+    font-weight: @headings-font-weight;
+    color: @white;
+    text-align: left;
+  }
 }
 
 .home-header {
@@ -239,7 +273,7 @@ h1.block-title {
   //position: relative;
   &:after {
     content: "";
-    background: url(/theme_agrista/static/src/img/home-tractor-iphone.jpg);
+    background: url(/theme_material/static/src/img/home.jpg);
     background-size: cover;
     background-position: center;
     top: 0;
@@ -251,20 +285,9 @@ h1.block-title {
   }
 }
 
-.benefits-header {
-  background-image: url(/theme_agrista/static/src/img/farmer-sheep.jpg);
-  .jumbotron {
-    color: @white;
-    background-color: @brand-primary;
-  }
-    .text-muted {
-    color: @light-green-50;
-  }
-}
-
 .block-carousel {
   .carousel-inner {
-    height:400px;
+    height: 400px;
   }
   .block-title {
     font-size: 42px;

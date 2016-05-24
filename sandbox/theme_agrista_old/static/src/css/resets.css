@@ -1,9 +1,0 @@
-/* Reset the Bootstrap navbar logo styles */
-
-.navbar-brand {
-  padding: 0px;
-}
-
-header a.navbar-brand.logo {
-    padding: 0 0px;
-}

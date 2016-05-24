@@ -15,7 +15,7 @@
                       type="text/less"/>
                 <link href="/theme_material/static/lib/bootstrap-material-design/less/welljumbo.less" rel="stylesheet"
                       type="text/less"/>
-                <link href="/theme_material/static/lib/bootstrap-material-design/less/buttons.less" rel="stylesheet"
+                <link href="/theme_material/static/src/less/buttons.less" rel="stylesheet"
                       type="text/less"/>
                 <link href="/theme_material/static/lib/bootstrap-material-design/less/checkboxes.less" rel="stylesheet"
                       type="text/less"/>
@@ -94,12 +94,13 @@
                       type="text/less"/>
                 <link href="/theme_material/static/src/less/ripples.less" rel="stylesheet"
                       type="text/less"/>
+                <link href="/theme_material/static/src/less/login.less" rel="stylesheet"
+                      type="text/less"/>
                 <link href="/theme_material/static/src/css/resets.css" rel="stylesheet" type="text/css"/>
                 <script type="text/javascript"
-                        src="/theme_material/static/lib/bootstrap-material-design/js/material.min.js"/>
+                        src="/theme_material/static/lib/bootstrap-material-design/js/material.js"/>
                 <script type="text/javascript"
-                        src="/theme_material/static/lib/bootstrap-material-design/js/ripples.min.js"/>
-                <script type="text/javascript" src="/theme_material/static/src/js/navbar.js"/>
+                        src="/theme_material/static/lib/bootstrap-material-design/js/ripples.js"/>
             </xpath>
         </template>
 

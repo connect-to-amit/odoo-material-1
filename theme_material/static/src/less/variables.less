@@ -216,4 +216,42 @@
 @block-lead-font-size-sm: floor((@font-size-base * 1.5));
 @block-lead-font-size: floor((@font-size-base * 1.3));
 @block-vertical-padding: 120px;
-@block-header-height: 600px;
+@block-header-height: 256px;
+
+/* NAVBAR */
+
+@navbar-default-bg:                         @white;
+@navbar-default-link-active-color:          #333;
+@navbar-default-link-active-bg:             transparent;
+@navbar-margin-bottom:                      0;
+@navbar-nav-active-font-weight:             inherit;
+
+@navbar-inverse-color:  @white;
+@navbar-inverse-bg:     @brand-secondary;
+@navbar-inverse-border: @brown-800; //#1C73A5
+
+@navbar-inverse-link-color:           rgba(255,255,255,.8);
+@navbar-inverse-link-hover-color:     @white;
+@navbar-inverse-link-active-color:    @navbar-inverse-link-hover-color;
+@navbar-inverse-link-active-bg:       transparent;
+
+@navbar-inverse-toggle-border-color:  @brown-800;
+@navbar-inverse-toggle-hover-bg:      darken(@navbar-inverse-bg, 2%);
+
+// Navbar - transparent
+@navbar-transparent-color:               @white;
+@navbar-transparent-bg:                  transparent;
+@navbar-transparent-border:              transparent;
+@navbar-transparent-link-color:          @navbar-transparent-color;
+@navbar-transparent-link-hover-color:    darken(@navbar-transparent-color, 10%);
+@navbar-transparent-link-hover-bg:       transparent;
+@navbar-transparent-link-active-color:   @navbar-transparent-link-hover-color;
+@navbar-transparent-link-active-bg:      transparent;
+@navbar-transparent-link-disabled-color: lighten(@navbar-transparent-color, 10%);
+@navbar-transparent-link-disabled-bg:    transparent;
+@navbar-transparent-brand-color:         @navbar-transparent-color;
+@navbar-transparent-brand-hover-color:   darken(@navbar-transparent-color, 10%);
+@navbar-transparent-brand-hover-bg:      transparent;
+@navbar-transparent-toggle-hover-bg:     fade(@navbar-transparent-color, 10%);
+@navbar-transparent-toggle-icon-bar-bg:  @navbar-transparent-color;
+@navbar-transparent-toggle-border-color: @navbar-transparent-color;

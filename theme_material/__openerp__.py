@@ -13,6 +13,7 @@
         'views/templates.xml',
         'views/snippets.xml',
         'views/snippets/header_carousel.xml',
+        'views/snippets/header_page.xml',
     ],
     'images': ['static/description/material.png'],
     'application': False,

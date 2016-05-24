@@ -8,11 +8,18 @@
             </xpath>
         </template>
 
+        <template id="remove_blog_subtitle" inherit_id="website_blog.blog_post_short" name="Remove Blog Subitile">
+            <xpath expr="//div[@class='oe_structure']/section[@class='mb0']" position="replace">
+                <div class="oe_structure"/>
+            </xpath>
+        </template>
+
         <!--<template id="remove_oe_footer" inherit_id="web.menu_secondary" name="Remove Powered by Odoo">
             <xpath expr="//div[@class='oe_footer']" position="replace">
                 <div class="oe_footer"/>
             </xpath>
         </template>-->
+
 
     </data>
 </openerp>

@@ -19,6 +19,8 @@
             <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
                 <t t-snippet="theme_material.header_carousel"
                    t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
+                <t t-snippet="theme_material.header_page"
+                   t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
                 <!--<t t-snippet="theme_agrista.header_benefits"
                    t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
                 <t t-snippet="theme_agrista.panel_benefits"
