@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="block_faq" name="Block FAQ">
+            <section class="block block-secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 mt32">
+                            <h3 class="h1">Any<b>Questions</b>?
+                            </h3>
+                            <p class="lead">If the answer to your question is not on this page, please contact our<a
+                                    href="/page/website.contactus">account managers</a>.
+                            </p>
+                        </div>
+                        <div class="col-md-12 mb32">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading_faq_01">
+                                        <h4 class="panel-title">
+                                            <a role="button" class="collapsed" data-toggle="collapse"
+                                               data-parent="#accordion" href="#faq_01" aria-expanded="false"
+                                               aria-controls="faq_01">
+                                                What does the subscription include?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="faq_01" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="heading_faq_01">
+                                        <div class="panel-body">
+                                            <p>You get access to our scalable cloud infrastructure including incremental
+                                                backups, email integration, top notch security, 24/7 monitoring and a
+                                                control center to manage your customer data. Your Agrista Enterprise
+                                                account is upgraded on demand to benefit from new features at your
+                                                convenience.
+                                            </p>
+                                            <p>
+                                                You get access to our support by email or live chat (dependant on
+                                                subscription package). Our support teams are available from Monday to
+                                                Friday, 9am-5pm, in English.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading_faq_02">
+                                        <h4 class="panel-title">
+                                            <a role="button" class="collapsed" data-toggle="collapse"
+                                               data-parent="#accordion" href="#faq_02" aria-expanded="false"
+                                               aria-controls="faq_02">
+                                                How do you define a paying user?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="faq_02" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="heading_faq_02">
+                                        <div class="panel-body">
+                                            <p>A user is defined as an employee who has or will have access to your
+                                                Agrista Enterprise account. Inactive users are not counted in the number
+                                                of users.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading_faq_03">
+                                        <h4 class="panel-title">
+                                            <a role="button" class="collapsed" data-toggle="collapse"
+                                               data-parent="#accordion" href="#faq_03" aria-expanded="false"
+                                               aria-controls="faq_03">
+                                                Do I need an Enterprise account to sell my products through your store ?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="faq_03" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="heading_faq_03">
+                                        <div class="panel-body">
+                                            <p>We have a free version that allows you to supply products on our store to our members. Contact us for more information.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading_faq_04">
+                                        <h4 class="panel-title">
+                                            <a role="button" class="collapsed" data-toggle="collapse"
+                                               data-parent="#accordion" href="#faq_04" aria-expanded="false"
+                                               aria-controls="faq_04">
+                                                Do you provide training?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="faq_04" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="heading_faq_04">
+                                        <div class="panel-body">
+                                            <p>Yes, we can organise online or on-site training for you and your staff.
+                                                Contact us to arrange a training package to suit your needs. In the
+                                                meantime we have a comprehensive online help manual go get you going.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading_faq_05">
+                                        <h4 class="panel-title">
+                                            <a role="button" class="collapsed" data-toggle="collapse"
+                                               data-parent="#accordion" href="#faq_05" aria-expanded="false"
+                                               aria-controls="faq_05">
+                                                How do I get my existing customer records onto Agrista?
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="faq_05" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="heading_faq_05">
+                                        <div class="panel-body">
+                                            <p>Our support team will guide you through the data transfer process to
+                                                ensure that all of your existing records are transferred easily into our
+                                                new Agrista Enterprise account.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </template>
+    </data>
+</openerp>

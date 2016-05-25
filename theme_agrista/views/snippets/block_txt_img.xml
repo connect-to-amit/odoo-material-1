@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="block_txt_img" name="Block Txt-Img">
+            <section class="block block-secondary block-inverse">
+                <div class="container">
+                    <div class="row app-align-center">
+                        <div class="col-sm-6">
+                            <h6 class="text-muted text-uppercase">Easy development</h6>
+                            <h3 class="m-t-0">Natural language queries make mining data easy for anyone.</h3>
+                            <p class="lead m-b-md text-muted">Rather than force everyone at your company to learn
+                                incredibly
+                                difficult terminal commands, we allow anyone to query the data with natural language to
+                                return data.
+                            </p>
+                            <button class="btn btn-default btn-lg btn-borderless">
+                                Read our docs
+                            </button>
+                        </div>
+                        <div class="col-sm-5 hidden-xs">
+                            <img class="app-iphone" src="/theme_agrista/static/src/img/farmer/combine.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</openerp>

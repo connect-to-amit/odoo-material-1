@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="header_benefits" name="Benefits Header">
+            <section class="block block-inverse block-header benefits-header text-center">
+                <div class="container">
+                    <div class-="row">
+                        <div class="col-md-6">
+                            <div class="jumbotron">
+                                <div class="block-foreground">
+                                    <h1 class="block-title">Rebates that impact your bottom line.</h1>
+                                    <h4 class="text-muted">We've partnered with Abank to offer great rebates from
+                                        selected partners.
+                                    </h4>
+                                    <button class="btn btn-default btn-outline m-t">Contact your banker</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</openerp>
