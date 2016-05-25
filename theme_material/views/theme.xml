@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_frontend" name="theme_agrista less" inherit_id="website.assets_frontend" active="True"
+                  priority="1">
+            <xpath expr="." position="inside">
+                <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"
+                      type="text/css"/>
+                <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet'
+                      type='text/css'/>
+                <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/colors.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/form.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/welljumbo.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/buttons.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/checkboxes.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/togglebutton.less"
+                      rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/radios.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/inputs-size.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/inputs.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/lists.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/alerts.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/progress.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/typography.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/tabs.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/popups.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/cards.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/dialogs.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/panels.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/dividers.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/themes.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/plugins/plugin-snackbarjs.less"
+                      rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/plugins/plugin-nouislider.less"
+                      rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/plugins/plugin-selectize.less"
+                      rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/lib/bootstrap-material-design/less/plugins/plugin-dropdownjs.less"
+                      rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/mixins.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/shadows.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/core.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/variables.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/typography.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/navbar.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/footers.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/block.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/carousel.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/sections.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/dropdown.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/images.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/labels.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/pills.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/pagination.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/ripples.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/login.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/css/resets.css" rel="stylesheet" type="text/css"/>
+                <script type="text/javascript"
+                        src="/theme_material/static/lib/bootstrap-material-design/js/material.js"/>
+                <script type="text/javascript"
+                        src="/theme_material/static/lib/bootstrap-material-design/js/ripples.js"/>
+            </xpath>
+        </template>
+
+        <template id="assets_backend" inherit_id="web.assets_backend" name="Base Agrista Theme Assets">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" type="text/css" href="/theme_material/static/src/css/web.css"/>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="header_page" name="Page Header">
+            <section class="block block-inverse block-header">
+                <div class="container text-center m-t-lg">
+                    <h1 class="block-title m-b-sm">Title</h1>
+                </div>
+            </section>
+        </template>
+    </data>
+</openerp>

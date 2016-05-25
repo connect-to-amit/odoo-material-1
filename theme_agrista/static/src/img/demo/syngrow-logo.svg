@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="104px" height="46px" viewBox="0 0 104 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>syngrow-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M61.154,6 C59.325,9.1 60.119,11.906 58.33,13.696 C56.893,15.133 55.56,15.087 53.993,15.087 C53.448,15.087 52.389,15.134 51.945,15.456 C51.688,14.637 51.577,13.736 51.577,12.877 C51.577,11.401 51.908,10.089 52.969,9.029 C55.001,6.998 58.682,6.352 61.154,6" id="Shape" fill="#009F3C" sketch:type="MSShapeGroup"></path>
+        <text id="syngrow" sketch:type="MSTextLayer" font-family="Bauhaus 93" font-size="25" font-weight="normal" fill="#36398E">
+            <tspan x="6" y="28">syngrow</tspan>
+        </text>
+    </g>
+</svg>
