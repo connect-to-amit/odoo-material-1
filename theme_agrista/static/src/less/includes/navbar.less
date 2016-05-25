@@ -36,9 +36,10 @@ header .navbar {
   }
   .navbar-brand {
 
-    background: url(/theme_agrista/static/src/img/agrista-logo.png);
-    background: linear-gradient(transparent, transparent),
+    background-image: url(/theme_agrista/static/src/img/agrista-logo.png);
+    background-image: linear-gradient(transparent, transparent),
     url(/theme_agrista/static/src/img/agrista-logo.svg);
+
   }
 }
 
@@ -47,9 +48,9 @@ header .navbar {
   background-color: @navbar-transparent-bg;
   border-color: @navbar-transparent-border;
   .navbar-brand {
-    background: url(/theme_agrista/static/src/img/agrista-logo-white.png);
-    background: url(/theme_agrista/static/src/img/agrista-logo-white.svg);
-  linear-gradient(transparent, transparent);
+    background-image: url(/theme_agrista/static/src/img/agrista-logo-white.png);
+    background-image: linear-gradient(transparent, transparent),
+    url(/theme_agrista/static/src/img/agrista-logo-white.svg);
     color: @navbar-transparent-brand-color;
     &:hover,
     &:focus {
