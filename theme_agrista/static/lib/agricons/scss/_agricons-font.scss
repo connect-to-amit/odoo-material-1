@@ -1,0 +1,27 @@
+// Ionicons Font Path
+// --------------------------
+
+@font-face {
+ font-family: $agricons-font-family;
+ src:url("#{$agricons-font-path}/agricons.eot?v=#{$agricons-version}");
+ src:url("#{$agricons-font-path}/agricons.eot?v=#{$agricons-version}#iefix") format("embedded-opentype"),
+  url("#{$agricons-font-path}/agricons.ttf?v=#{$agricons-version}") format("truetype"),
+  url("#{$agricons-font-path}/agricons.woff?v=#{$agricons-version}") format("woff"),
+  url("#{$agricons-font-path}/agricons.svg?v=#{$agricons-version}#Agricons") format("svg");
+ font-weight: normal;
+ font-style: normal;
+}
+
+.ag {
+  display: inline-block;
+  font-family: $agricons-font-family;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
