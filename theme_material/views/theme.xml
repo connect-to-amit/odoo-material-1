@@ -78,7 +78,7 @@
                       type="text/less"/>
                 <link href="/theme_material/static/src/less/block.less" rel="stylesheet"
                       type="text/less"/>
-                <link href="/theme_material/static/src/less/carousel.less" rel="stylesheet"
+                <link href="/theme_material/static/src/less/header.less" rel="stylesheet"
                       type="text/less"/>
                 <link href="/theme_material/static/src/less/sections.less" rel="stylesheet"
                       type="text/less"/>
@@ -96,7 +96,11 @@
                       type="text/less"/>
                 <link href="/theme_material/static/src/less/login.less" rel="stylesheet"
                       type="text/less"/>
+                <link href="/theme_material/static/src/less/blog.less" rel="stylesheet"
+                      type="text/less"/>
                 <link href="/theme_material/static/src/css/resets.css" rel="stylesheet" type="text/css"/>
+                <script type="text/javascript"
+                        src="/theme_material/static/src/js/navbar.js"/>
                 <script type="text/javascript"
                         src="/theme_material/static/lib/bootstrap-material-design/js/material.js"/>
                 <script type="text/javascript"

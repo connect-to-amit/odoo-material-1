@@ -2,7 +2,7 @@
 <openerp>
     <data>
 
-        <template id="block_how_it_works" name="How it Works">
+        <template id="how_it_works" name="How it Works">
             <section class="block block-secondary block-default">
                 <div class="container">
                     <div class="row">

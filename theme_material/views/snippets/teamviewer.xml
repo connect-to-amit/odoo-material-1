@@ -2,7 +2,7 @@
 <openerp>
     <data>
 
-        <template id="block_teamviewer" name="TeamViewer Button">
+        <template id="teamviewer" name="TeamViewer Button">
             <section class="block block-primary">
                 <div class="container">
                     <div class="row">

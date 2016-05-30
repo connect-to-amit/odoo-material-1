@@ -3,44 +3,51 @@
     <data>
 
         <template id="snippet_structure" inherit_id="website.snippets">
-            <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-                <t t-snippet="theme_material.block_img_txt"
-                   t-thumbnail="/website/static/src/img/blocks/block_image_text.png"/>
-                <t t-snippet="theme_material.block_txt_img"
-                   t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
-                <t t-snippet="theme_material.block_customer_ribbon"
-                   t-thumbnail="/website/static/src/img/blocks/block_well.png"/>
-                <t t-snippet="theme_material.block_teamviewer"
-                   t-thumbnail="/website/static/src/img/blocks/block_button.png"/>
-                <t t-snippet="theme_material.block_how_it_works"
-                   t-thumbnail="/website/static/src/img/blocks/block_well.png"/>
+            <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="replace">
+                <div class="o_panel_body">
+                    <t t-snippet="theme_material.img_txt"
+                       t-thumbnail="/website/static/src/img/blocks/block_image_text.png"/>
+                    <t t-snippet="theme_material.txt_img"
+                       t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+                    <t t-snippet="theme_material.customer_ribbon"
+                       t-thumbnail="/website/static/src/img/blocks/block_well.png"/>
+                    <t t-snippet="theme_material.teamviewer"
+                       t-thumbnail="/website/static/src/img/blocks/block_button.png"/>
+                    <t t-snippet="theme_material.how_it_works"
+                       t-thumbnail="/website/static/src/img/blocks/block_well.png"/>
+                </div>
             </xpath>
 
-            <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
-                <t t-snippet="theme_material.header_carousel"
-                   t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
-                <t t-snippet="theme_material.header_page"
-                   t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
-                <!--<t t-snippet="theme_material.header_benefits"
-                   t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
-                <t t-snippet="theme_material.panel_benefits"
-                   t-thumbnail="/website/static/src/img/blocks/block_well.png"/>-->
+            <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="replace">
+                <div class="o_panel_body">
+                    <t t-snippet="theme_material.header_carousel"
+                       t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
+                    <t t-snippet="theme_material.header_page"
+                       t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
+                    <t t-snippet="theme_material.header_landing"
+                       t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
+                </div>
             </xpath>
 
-            <xpath expr="//div[@id='snippet_feature']/div[@class='o_panel_body']" position="inside">
-                <t t-snippet="theme_material.featured_row"
-                   t-thumbnail="/website/static/src/img/blocks/block_features.png"/>
-                <t t-snippet="theme_material.featured_list"
-                   t-thumbnail="/website/static/src/img/blocks/block_three_columns.png"/>
-                <t t-snippet="theme_material.plans_farmer"
-                   t-thumbnail="/website/static/src/img/blocks/block_comparison.png"/>
-                <!--<t t-snippet="theme_material.plans_enterprise"
-                   t-thumbnail="/website/static/src/img/blocks/block_comparison.png"/>-->
-                <t t-snippet="theme_material.block_faq"
-                   t-thumbnail="/website/static/src/img/blocks/block_faq.png"/>
+            <xpath expr="//div[@id='snippet_feature']/div[@class='o_panel_body']" position="replace">
+                <div class="o_panel_body">
+                    <t t-snippet="theme_material.featured_row"
+                       t-thumbnail="/website/static/src/img/blocks/block_features.png"/>
+                    <t t-snippet="theme_material.featured_list"
+                       t-thumbnail="/website/static/src/img/blocks/block_three_columns.png"/>
+                    <t t-snippet="theme_material.plans_farmer"
+                       t-thumbnail="/website/static/src/img/blocks/block_comparison.png"/>
+                    <t t-snippet="theme_material.faq"
+                       t-thumbnail="/website/static/src/img/blocks/block_faq.png"/>
+                    <t t-snippet="theme_material.references"
+                       t-thumbnail="/website/static/src/img/blocks/block_references.png"/>
+                    <t t-snippet="theme_material.quotes_slider"
+                       t-thumbnail="/website/static/src/img/blocks/block_quotes_slider.png"/>
+                </div>
             </xpath>
 
-            <xpath expr="//div[@id='snippet_effect']/div[@class='o_panel_body']" position="inside">
+            <xpath expr="//div[@id='snippet_effect']/div[@class='o_panel_body']" position="replace">
+                <div class="o_panel_body"/>
             </xpath>
 
         </template>

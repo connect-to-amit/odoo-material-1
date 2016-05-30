@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
     <data>
-        <template id="block_faq" name="Block FAQ">
+        <template id="faq" name="FAQ">
             <section class="block block-secondary">
                 <div class="container">
                     <div class="row">

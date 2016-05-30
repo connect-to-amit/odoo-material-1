@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
     <data>
-        <template id="block_img_txt" name="Block Img-Txt">
+        <template id="img_txt" name="Img-Txt">
             <section class="block block-secondary app-iphone-block">
                 <div class="container">
                     <div class="row app-align-center">
