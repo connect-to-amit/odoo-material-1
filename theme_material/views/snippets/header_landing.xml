@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <template id="header_landing" name="Landing Header">
-            <section class="header header-landing">
+            <section class="header header-landing" style="background-image: url('/theme_material/static/src/img/home.jpg')">
                 <div class="container text-center m-t-lg">
                     <h1 class="block-title m-b-sm">Clear copy that states what you're selling.
                     </h1>

@@ -1,0 +1,19 @@
+{
+    "repo": "agrista/ionicons",
+    "development": {},
+    "version": "1.0.0",
+    "styles": [
+        "css/agricons.css"
+    ],
+    "name": "Agricons",
+    "dependencies": {},
+    "keywords": [],
+    "license": "MIT",
+    "fonts": [
+        "fonts/agricons.eot",
+        "fonts/agricons.svg",
+        "fonts/agricons.ttf",
+        "fonts/agricons.woff"
+    ],
+    "description": "The premium icon font for Agrista."
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="customer_ribbon" name="Customer Ribbon">
+            <section class="block customer-ribbon p-y-lg">
+                <div class="container text-center">
+                    <img src="/theme_agrista/static/src/img/demo/sunfarm-logo-white.svg"/>
+                    <img src="/theme_agrista/static/src/img/demo/fresh-beef-logo-white.svg"/>
+                    <img src="/theme_agrista/static/src/img/demo/verkyk-logo-white.svg"/>
+                </div>
+            </section>
+        </template>
+    </data>
+</openerp>

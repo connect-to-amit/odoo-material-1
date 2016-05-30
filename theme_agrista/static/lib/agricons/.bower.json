@@ -1,0 +1,38 @@
+{
+  "ignore": [
+    "**/.*",
+    "builder",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "name": "Agricons",
+  "license": "MIT",
+  "authors": [
+    "Helmut Drewes <helmut.drewes@agrista.com>",
+    "Ross Savage <ross.savage@agrista.com>"
+  ],
+  "keywords": [
+    "fonts",
+    "icon font",
+    "icons",
+    "agrista",
+    "web font"
+  ],
+  "main": [
+    "css/agricons.css",
+    "fonts/*"
+  ],
+  "homepage": "https://bitbucket.org/agrista/agricons",
+  "description": "Agricons - beautiful icons from the creators of Agrista",
+  "_release": "8a89428c10",
+  "_resolution": {
+    "type": "branch",
+    "branch": "develop",
+    "commit": "8a89428c105f204156398bbc7aba1f188b6e3d5e"
+  },
+  "_source": "git@bitbucket.org:agrista/agricons.git",
+  "_target": "develop",
+  "_originalSource": "git@bitbucket.org:agrista/agricons.git"
+}
