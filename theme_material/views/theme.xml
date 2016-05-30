@@ -4,11 +4,11 @@
         <template id="assets_frontend" name="theme_agrista less" inherit_id="website.assets_frontend" active="True"
                   priority="1">
             <xpath expr="." position="inside">
-                <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"
+                <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"
                       type="text/css"/>
                 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet'
                       type='text/css'/>
-                <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/>
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/>
                 <link href="/theme_material/static/lib/bootstrap-material-design/less/colors.less" rel="stylesheet"
                       type="text/less"/>
                 <link href="/theme_material/static/lib/bootstrap-material-design/less/form.less" rel="stylesheet"
