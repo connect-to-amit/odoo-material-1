@@ -21,9 +21,9 @@
                    t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
                 <t t-snippet="theme_material.header_page"
                    t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
-                <!--<t t-snippet="theme_material.header_benefits"
+                <t t-snippet="theme_material.header_landing"
                    t-thumbnail="/website/static/src/img/blocks/block_jumbotron.png"/>
-                <t t-snippet="theme_material.panel_benefits"
+                <!--<t t-snippet="theme_material.panel_benefits"
                    t-thumbnail="/website/static/src/img/blocks/block_well.png"/>-->
             </xpath>
 

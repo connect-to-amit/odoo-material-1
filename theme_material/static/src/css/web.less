@@ -1,16 +1,21 @@
+@brand-primary: #e91e63;
+@brand-primary-dark: #c2185b;
+@brand-secondary: #8bc34a;
+@brand-secondary-dark: #689f38;
+
 a {
-  color: #689F38;
+  color: @brand-primary;
 }
 
 .navbar-inverse {
-  background-color: #5D4037;
-  border-color: #4E342E;
+  background-color: @brand-secondary;
+  border-color: @brand-secondary-dark;
 }
 .navbar-inverse .navbar-nav > .active > a {
-  background-color: #4E342E;
+  background-color: @brand-secondary-dark;
 }
 .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: #4E342E;
+  background-color: @brand-secondary;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #D7CCC8;
@@ -21,11 +26,11 @@ a {
 
 .btn-primary {
   color: #fff;
-  background-color: #689F38;
-  border-color: #5c8c31;
+  background-color: @brand-primary;
+  border-color: @brand-primary-dark;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #436624;
+  background-color: @brand-primary-dark;
 }
 
 .openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {

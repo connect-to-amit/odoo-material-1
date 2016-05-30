@@ -13,6 +13,7 @@
         'views/templates.xml',
         'views/snippets.xml',
         'views/snippets/header_carousel.xml',
+        'views/snippets/header_landing.xml',
         'views/snippets/header_page.xml',
         'views/snippets/block_img_txt.xml',
         'views/snippets/block_txt_img.xml',
