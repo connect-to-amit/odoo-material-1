@@ -3,7 +3,7 @@
     <data>
         <template id="header_carousel" name="Carousel Header">
             <!-- carousel -->
-            <section id="myHeaderCarousel" class="header header-carousel slide">
+            <section id="myHeaderCarousel" class="header header-carousel carousel slide">
 
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -13,12 +13,12 @@
                 </ol>
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner header-inner" role="listbox">
 
                     <!-- First slide -->
                     <div class="item active">
                         <img src="/theme_material/static/src/img/demo/hp-01.jpg" alt="Image 1"/>
-                        <div class="carousel-caption">
+                        <div class="header-caption">
                             <h1>Clear copy that states what you're selling. 1</h1>
                             <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.</p>
                             <button class="btn btn-lg btn-primary btn-raised" href="#" role="button">
@@ -31,7 +31,7 @@
                     <!-- Second slide -->
                     <div class="item">
                         <img src="/theme_material/static/src/img/demo/hp-02.jpg" alt="Image 2"/>
-                        <div class="carousel-caption">
+                        <div class="header-caption">
                             <h1>Clear copy that states what you're selling. 2</h1>
                             <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.</p>
                         </div>
@@ -41,7 +41,7 @@
                     <!-- Third slide -->
                     <div class="item">
                         <img src="/theme_material/static/src/img/demo/hp-04.jpg" alt="Image 3"/>
-                        <div class="carousel-caption">
+                        <div class="header-caption">
                             <h1>Clear copy that states what you're selling. 3</h1>
                             <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.</p>
                         </div>

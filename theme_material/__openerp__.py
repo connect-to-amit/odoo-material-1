@@ -5,7 +5,7 @@
     'description': 'This theme module provides material design components for the website frontend.',
     'category': 'Theme',
     'version': '1.0',
-    'depends': ['website'],
+    'depends': ['website', 'website_blog', ],
     'data': [
         'views/theme.xml',
         'views/options.xml',

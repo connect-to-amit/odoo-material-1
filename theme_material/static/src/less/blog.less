@@ -1,14 +1,28 @@
 .md-blog {
-  margin: -176px 45px 15px;
+  margin: -176px 30px 30px;
+  position: relative;
   .shadow-2dp();
   background-color: @white;
   border-radius: @border-radius-base;
+  #main_column {
+    padding-left: 40px;
+  }
+  #blog_right_column {
+    margin-left: 5%;
+  }
+  .md-blog-content {
+    padding: 24px;
+  }
 }
 
 .md-blog-cover {
 
 }
 
+#blog_content {
+  > .container {
+  }
+}
 .md-blog-author {
   display: inline-block;
   color: @mdb-text-color-light;
@@ -24,5 +38,12 @@
     color: @white;
     font-weight: @headings-font-weight !important;
     margin-top: 172px;
+  }
+}
+
+@media (max-width: @grid-float-breakpoint-max) {
+  .md-blog {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
