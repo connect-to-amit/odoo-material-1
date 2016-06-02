@@ -114,6 +114,7 @@
 
   // Darken the responsive nav toggle
   .navbar-toggle {
+    margin-top: 20px;
     border: 0;
     &:hover,
     &:focus {
@@ -300,6 +301,7 @@
     }
 
     .navbar-toggle {
+      margin-top: 14px;
       border-color: @navbar-transparent-toggle-border-color;
       &:hover,
       &:focus {
@@ -319,9 +321,10 @@
   &-fixed-top {
     border-radius: 0;
   }
-  @media (max-width: @screen-md-max) {
+  @media (max-width: @grid-float-breakpoint-max) {
 
     .navbar-brand {
+      margin: 10px 10px 10px !important;
       height: 50px;
       padding: 10px 15px;
     }

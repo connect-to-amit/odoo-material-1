@@ -51,61 +51,65 @@
                             </div>
                         </section>
                     </div>
-                    <div class="container md-blog">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2" t-ignore="True" id="main_column">
+                    <div class="md-blog">
+                        <div class="container md-blog-content">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2" t-ignore="True" id="main_column">
 
-                                <div t-if="not blog_posts" class="container mb64">
-                                    <p class="css_editable_hidden">
-                                        <h1>No blog post yet.</h1>
-                                    </p>
-                                    <p groups="base.group_website_designer">
-                                        Click on "Content" on the top menu to write your first blog post.
-                                    </p>
-                                </div>
+                                    <div t-if="not blog_posts" class="container mb64">
+                                        <p class="css_editable_hidden">
+                                            <h1>No blog post yet.</h1>
+                                        </p>
+                                        <p groups="base.group_website_designer">
+                                            Click on "Content" on the top menu to write your first blog post.
+                                        </p>
+                                    </div>
 
-                                <div t-foreach="blog_posts" t-as="blog_post" class="mb32">
-                                    <t t-if="blog_post.author_avatar">
-                                        <span t-field="blog_post.author_avatar" class="o_not_editable"
-                                              t-field-options='{"widget": "image", "class": "img-circle pull-right mt16 media-object"}'/>
-                                    </t>
-                                    <a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }">
-                                        <h2 t-field="blog_post.name" class="mb4">
-                                            <t t-if="not blog_post.name">Untitled Post</t>
-                                        </h2>
-                                    </a>
-                                    <div class="text-muted">
-                                        <h4 t-field="blog_post.subtitle" class="mb4 mt4"></h4>
-                                        <div name='blog_post_data' class='mb0'>
-                                            <span t-field="blog_post.author_id" style="display: inline-block;"
-                                                  t-field-options='{
+                                    <div t-foreach="blog_posts" t-as="blog_post" class="mb32">
+                                        <t t-if="blog_post.author_avatar">
+                                            <span t-field="blog_post.author_avatar" class="o_not_editable"
+                                                  t-field-options='{"widget": "image", "class": "img-circle pull-right mt16 media-object"}'/>
+                                        </t>
+                                        <a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }">
+                                            <h2 t-field="blog_post.name" class="mb4">
+                                                <t t-if="not blog_post.name">Untitled Post</t>
+                                            </h2>
+                                        </a>
+                                        <div class="text-muted">
+                                            <h4 t-field="blog_post.subtitle" class="mb4 mt4"></h4>
+                                            <div name='blog_post_data' class='mb0'>
+                                                <span t-field="blog_post.author_id" style="display: inline-block;"
+                                                      t-field-options='{
                                 "widget": "contact",
                                 "fields": ["name"]
                             }'/>
-                                            &#5760;
-                                            <span t-field="blog_post.create_date"
-                                                  t-field-options='{"format": "MMMM yyyy"}'/>
-                                            <span t-if="len(blog_post.message_ids) &gt; 0">
                                                 &#5760;
-                                                <t t-esc="len(blog_post.message_ids)"/>
-                                                <t t-if="len(blog_post.message_ids) &lt;= 1">comment</t>
-                                                <t t-if="len(blog_post.message_ids) > 1">comments</t>
-                                            </span>
-                                            <span t-if="blog_post.visits &gt; 0">
-                                                &#5760;
-                                                <t t-esc="blog_post.visits"/>
-                                                <t t-if="blog_post.visits &lt;= 1">view</t>
-                                                <t t-if="blog_post.visits > 1">views</t>
-                                            </span>
+                                                <span t-field="blog_post.create_date"
+                                                      t-field-options='{"format": "MMMM yyyy"}'/>
+                                                <span t-if="len(blog_post.message_ids) &gt; 0">
+                                                    &#5760;
+                                                    <t t-esc="len(blog_post.message_ids)"/>
+                                                    <t t-if="len(blog_post.message_ids) &lt;= 1">comment</t>
+                                                    <t t-if="len(blog_post.message_ids) > 1">comments</t>
+                                                </span>
+                                                <span t-if="blog_post.visits &gt; 0">
+                                                    &#5760;
+                                                    <t t-esc="blog_post.visits"/>
+                                                    <t t-if="blog_post.visits &lt;= 1">view</t>
+                                                    <t t-if="blog_post.visits > 1">views</t>
+                                                </span>
 
-                                            <span t-if="not blog_post.website_published" class="label label-danger">not
-                                                published
-                                            </span>
+                                                <span t-if="not blog_post.website_published" class="label label-danger">
+                                                    not
+                                                    published
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     <div class="oe_structure"/>
@@ -123,12 +127,9 @@
         <template id="blog_post_complete" inherit_id="website_blog.blog_post_complete" name="Modified Blog Post">
             <xpath expr="." position="replace">
                 <t t-call="website_blog.index">
-                    <div class="header header-page"
-                         style="background-image: url('/theme_material/static/src/img/page.jpg')">
-                    </div>
+                    <div class="header header-page"/>
                     <div class="md-blog">
-                        <div id="title" class="md-blog-cover"
-                             t-ignore="True">
+                        <div id="title" t-ignore="True">
                             <div id="js_blogcover"
                                  t-attf-class="#{blog_post_cover_properties.get('background-color')}"
                                  t-attf-style="background-image: #{blog_post_cover_properties.get('background-image', 'none')};opacity:#{blog_post_cover_properties.get('opacity', 1)}">
@@ -173,14 +174,10 @@
                                         <p class="post-meta text-muted" name="blog_post_data"/>
                                     </div>
                                 </div>
-
                             </div>
-
-                        </div>
-                        <div id="blog_content" t-field="blog_post.content" class="blog_content mt32"/>
-
+                        </div><!-- title -->
+                        <div id="blog_content" t-field="blog_post.content" class="blog_content mt32"/><!-- blog_content-->
                     </div>
-
                 </t>
             </xpath>
         </template>
