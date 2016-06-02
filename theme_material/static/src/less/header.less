@@ -4,6 +4,7 @@
 
 .header {
   /* margin-top: -82px;*/
+  position: relative;
   h1 {
     font-size: 1.5rem;
     margin: 1.5rem 0 2.5rem 0;
@@ -12,6 +13,24 @@
   p {
     font-size: 1.5rem;
     color: @white;
+    margin-bottom: 40px;
+  }
+  button {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .header h1 {
+    font-size: 2.4rem;
+    margin: 1.5rem 0 2.375rem 0
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .header h1 {
+    font-size: 3rem;
+    margin: 1.75rem 0 2.625rem 0;
   }
 }
 
@@ -20,37 +39,45 @@
   background-color: @brand-secondary;
 }
 
-.header-landing {
-  background-attachment: local;
-  background-position: center 0;
-  background-size: cover;
-  left: 0;
-  position: relative;
-  top: 0;
-  width: 100%;
+.header-landing, .header-carousel {
+  min-height: 566px;
+}
+
+.header-inner {
+  height: 100%;
+  img {
+    max-width: 100%;
+  }
+}
+
+.header-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: @carousel-caption-color;
+  text-align: center;
+  text-shadow: @carousel-text-shadow;
+  & .btn {
+    text-shadow: none; // No shadow for button elements in carousel-caption
+  }
+}
+
+@media screen and (min-width: @screen-sm-min) {
+
+  .header-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
 }
 
 /*********************
 Carousel
 **********************/
-
-@media only screen and (min-width: 48rem) {
-  .header-carousel h1 {
-    font-size: 2.4rem;
-    margin: 1.5rem 0 2.375rem 0
-  }
-}
-
-@media only screen and (min-width: 64rem) {
-  .header-carousel h1 {
-    font-size: 3rem;
-    margin: 1.75rem 0 2.625rem 0;
-  }
-}
-
-.carousel-caption button {
-  animation-delay: 3s;
-}
 
 .carousel-control:hover {
   .transition-duration(400ms);
@@ -132,13 +159,13 @@ Carousel
 
 .carousel .carousel-indicators li {
   border: 1px solid @white !important;
-  height: 20px;
-  width: 20px;
+  height: 14px;
+  width: 14px;
 }
 
 .carousel .carousel-indicators .active {
-  height: 20px;
-  width: 20px;
+  height: 14px;
+  width: 14px;
   background-color: @white !important;
 }
 

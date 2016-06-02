@@ -2,8 +2,7 @@
 <openerp>
     <data>
         <template id="header_page" name="Page Header">
-            <section class="header header-page"
-                     style="background-image: url('/theme_material/static/src/img/page.jpg')">
+            <section class="header header-page">
                 <div class="container">
                     <h1 class="block-title"></h1>
                 </div>
