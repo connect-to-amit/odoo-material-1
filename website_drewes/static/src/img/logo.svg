@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="277px" height="50px" viewBox="0 0 277 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-1" fill="#E62565" cx="25" cy="25" r="25"></circle>
+        <text id="ED" font-family="RobotoSlab-Regular, Roboto Slab" font-size="29" font-weight="normal" fill="#FFFFFF">
+            <tspan x="6.20678711" y="35">ED</tspan>
+        </text>
+        <text id="Dr-Erika-Drewes" font-family="RobotoSlab-Regular, Roboto Slab" font-size="29" font-weight="normal" fill="#8BC34A">
+            <tspan x="54.5622559" y="30">Dr Erika Drewes</tspan>
+        </text>
+        <text id="MBChB,-MFamMed,-DipO" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#636463">
+            <tspan x="54.5" y="45">MBChB, MFamMed, DipObst</tspan>
+        </text>
+    </g>
+</svg>
