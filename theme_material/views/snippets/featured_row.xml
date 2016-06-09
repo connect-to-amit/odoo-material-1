@@ -14,27 +14,27 @@
                     <div class="row">
                         <div class="col-md-4 text-center">
                             <span class="featured-row-icon">
-                                <i class="icon icon-tools"/>
+                                <i class="material-icons waves-effect waves-light">multiline_chart</i>
                             </span>
-                            <h3>Plan your finances</h3>
+                            <h3>Prepare financial plans</h3>
                             <p>Securely manage your farm data and use powerful tools to
                                 plan the financing requirements of your farm operations.
                             </p>
                         </div>
                         <div class="col-md-4 text-center">
                             <span class="featured-row-icon">
-                                <i class="icon icon-gauge"/>
+                                <i class="material-icons waves-effect waves-light">shopping_basket</i>
                             </span>
-                            <h3>Benchmark costs</h3>
+                            <h3>Value farm assets</h3>
                             <p>Easily set up or join existing groups to securely share
                                 enterprise revenue and costs and benchmark against the group average.
                             </p>
                         </div>
                         <div class="col-md-4 text-center">
                             <span class="featured-row-icon">
-                                <i class="icon icon-share"/>
+                                <i class="material-icons waves-effect waves-light">attach_money</i>
                             </span>
-                            <h3>Manage your business network</h3>
+                            <h3>Calculate enterprise profits</h3>
                             <p>Securely control with whom you share your data and remain
                                 updated on services provided by your creditors, input suppliers and off-takers.
                             </p>

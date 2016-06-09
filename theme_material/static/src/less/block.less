@@ -280,15 +280,20 @@ h1.block-title {
   }
   .featured-row-icon {
     color: @brand-primary;
+    background-color: @grey-100;
     display: inline-block;
-    font-size: 48px;
+    font-size: 48px !important;
     text-align: center;
-    border: 1px solid @gray-lighter;
+    //border: 1px solid @gray-lighter;
     border-radius: 50%;
     height: 100px;
     width: 100px;
     line-height: 100px;
     top: 0;
+    > i {
+      line-height: 2;
+      font-size: 48px;
+    }
   }
 }
 
