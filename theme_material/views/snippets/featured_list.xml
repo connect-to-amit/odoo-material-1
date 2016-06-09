@@ -17,7 +17,7 @@
 
                                 <li class="m-b-lg">
                                     <div class="featured-list-icon text-primary">
-                                        <span class="icon icon-tablet"/>
+                                        <i class="material-icons waves-effect waves-light">multiline_chart</i>
                                     </div>
                                     <p class="featured-list-icon-text m-b-0">
                                         <strong>Upload unlimited images</strong>
@@ -30,7 +30,7 @@
 
                                 <li class="m-b-lg">
                                     <div class="featured-list-icon text-primary">
-                                        <span class="icon icon-hour-glass"/>
+                                        <i class="material-icons waves-effect waves-light">multiline_chart</i>
                                     </div>
                                     <p class="featured-list-icon-text m-b-0">
                                         <strong>Tracked time savings</strong>
@@ -43,7 +43,7 @@
 
                                 <li class="m-b-lg">
                                     <div class="featured-list-icon text-primary">
-                                        <span class="icon icon-hour-glass"/>
+                                        <i class="material-icons waves-effect waves-light">multiline_chart</i>
                                     </div>
                                     <p class="featured-list-icon-text m-b-0">
                                         <strong>Tracked time savings</strong>
@@ -61,7 +61,7 @@
 
                                 <li class="m-b-lg">
                                     <div class="featured-list-icon text-primary">
-                                        <span class="icon icon-cloud"/>
+                                        <i class="material-icons waves-effect waves-light">multiline_chart</i>
                                     </div>
                                     <p class="featured-list-icon-text m-b-0">
                                         <strong>Share from anywhere</strong>
@@ -74,7 +74,7 @@
 
                                 <li class="m-b-lg">
                                     <div class="featured-list-icon text-primary">
-                                        <span class="icon icon-emoji-neutral"/>
+                                        <i class="material-icons waves-effect waves-light">multiline_chart</i>
                                     </div>
                                     <p class="featured-list-icon-text m-b-0">
                                         <strong>Use stickers and express yourself</strong>
@@ -87,7 +87,7 @@
 
                                 <li class="m-b-lg">
                                     <div class="featured-list-icon text-primary">
-                                        <span class="icon icon-emoji-neutral"/>
+                                        <i class="material-icons waves-effect waves-light">multiline_chart</i>
                                     </div>
                                     <p class="featured-list-icon-text m-b-0">
                                         <strong>Use stickers and express yourself</strong>
