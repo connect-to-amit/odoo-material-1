@@ -21,13 +21,37 @@
             </xpath>
         </template>
 
-        <!--<template id="custom_blog" inherit_id="website_blog.blog_post_short">
-            <xpath expr="//div[@class='container'][2]" position="attributes">
-                <attribute name="class">md-blog</attribute>
+        <!--<template id="custom_blog_post_short" inherit_id="website_blog.blog_post_short">
+            <xpath expr="//div[@class='website_blog']" position="before">
+                <div name="header header-page"/>
             </xpath>
         </template>-->
 
-        <template id="blog_post_short" inherit_id="website_blog.blog_post_short" name="Modified Blog Posts">
+        <!--<template id="custom_blog_post_short" inherit_id="website_blog.blog_post_short">
+            <xpath expr="//div[@class='container'][1]" position="before">
+                <div class="header header-page"/>
+            </xpath>
+        </template>-->
+
+        <template id="custom_blog_cover" inherit_id="website_blog.blog_post_complete">
+            <xpath expr="//div[@class='blog_title']" position="attributes">
+                <attribute name="class">container blog_title</attribute>
+            </xpath>
+        </template>
+
+        <template id="custom_blog_next" inherit_id="website_blog.blog_post_complete">
+            <xpath expr="//div[@class='blog_title'][1]" position="attributes">
+                <attribute name="class">container blog_title</attribute>
+            </xpath>
+        </template>
+
+        <template id="custom_blog_index" inherit_id="website_blog.index">
+            <xpath expr="//div[@id='wrap']" position="before">
+                <div class="header header-page"/>
+            </xpath>
+        </template>
+
+        <!--<template id="blog_post_short" inherit_id="website_blog.blog_post_short" name="Modified Blog Posts">
             <xpath expr="." position="replace">
                 <t t-call="website_blog.index">
                     <t t-set="head">
@@ -115,7 +139,7 @@
                     <div class="oe_structure"/>
                 </t>
             </xpath>
-        </template>
+        </template>-->
 
 
         <!--<template id="remove_oe_footer" inherit_id="web.menu_secondary" name="Remove Powered by Odoo">
@@ -124,7 +148,7 @@
             </xpath>
         </template>-->
 
-        <template id="blog_post_complete" inherit_id="website_blog.blog_post_complete" name="Modified Blog Post">
+        <!--<template id="blog_post_complete" inherit_id="website_blog.blog_post_complete" name="Modified Blog Post">
             <xpath expr="." position="replace">
                 <t t-call="website_blog.index">
                     <div class="header header-page"/>
@@ -157,9 +181,9 @@
                                     <div class="blog_title">
                                         <h1 t-field="blog_post.name" id="blog_post_name"
                                             t-att-data-blog-id="blog_post.id"
-                                            placeholder="Blog Post Title"/>
+                                            placeholder="Blog Post Title"/>-->
                                         <!--<h2 t-field="blog_post.subtitle" placeholder="Subtitle"/>-->
-                                        <div class="md-blog-author">
+                                        <!--<div class="md-blog-author">
                                             by
                                             <t t-if="blog_post.author_avatar">
                                                 <span t-field="blog_post.author_avatar" class="o_not_editable"
@@ -175,12 +199,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- title -->
-                        <div id="blog_content" t-field="blog_post.content" class="blog_content mt32"/><!-- blog_content-->
-                    </div>
+                        </div>--><!-- title -->
+                        <!--<div id="blog_content" t-field="blog_post.content" class="blog_content mt32"/>--><!-- blog_content-->
+                    <!--</div>
                 </t>
             </xpath>
-        </template>
+        </template>-->
 
 
     </data>
