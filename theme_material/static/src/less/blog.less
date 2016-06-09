@@ -1,25 +1,25 @@
-.md-blog {
+.website_blog {
   margin: -176px 30px 30px;
   position: relative;
   .shadow-2dp();
   background-color: @white;
   border-radius: @border-radius-base;
   #main_column {
-    padding-left: 40px;
+    //padding-left: 40px;
   }
   #blog_right_column {
-    margin-left: 5%;
+    //margin-left: 5%;
   }
   .md-blog-content {
     padding: 24px;
   }
 }
 
-.md-blog-cover {
-
+.cover_full {
+  height: 34vh !important;
 }
-
 #blog_content {
+  //margin-top: -540px !important;
   > .container {
   }
 }
@@ -29,20 +29,26 @@
 }
 
 #js_blogcover {
+  height: 280px !important;
   min-height: 280px !important;
 }
 
 .blog_title {
   text-align: left !important;
+  //margin-top: -176px;
+  top: 12% !important;
   h1 {
     color: @white;
     font-weight: @headings-font-weight !important;
-    margin-top: 172px;
+    margin: 1.5rem 0 2.5rem 0;
+  }
+  h2, p {
+    color: @white;
   }
 }
 
 @media (max-width: @grid-float-breakpoint-max) {
-  .md-blog {
+  .md-blog, #js_blog {
     margin-left: 10px;
     margin-right: 10px;
   }
