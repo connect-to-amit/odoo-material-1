@@ -1,5 +1,5 @@
 .website_blog {
-  margin: -176px 30px 30px;
+  margin: -176px 10px 10px;
   position: relative;
   .shadow-2dp();
   background-color: @white;
@@ -11,18 +11,26 @@
     //margin-left: 5%;
   }
   .md-blog-content {
-    padding: 24px;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 760px) {
+  .website_blog {
+    margin: -176px 30px 30px;
   }
 }
 
 .cover_full {
   height: 34vh !important;
 }
+
 #blog_content {
   //margin-top: -540px !important;
   > .container {
   }
 }
+
 .md-blog-author {
   display: inline-block;
   color: @mdb-text-color-light;
