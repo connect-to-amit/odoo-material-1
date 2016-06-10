@@ -6,6 +6,8 @@
             <xpath expr="." position="inside">
                 <link href="/website_abr/static/src/less/logo.less" rel="stylesheet"
                       type="text/less"/>
+                <link href="/website_abr/static/src/less/jumbotron.less" rel="stylesheet"
+                      type="text/less"/>
             </xpath>
         </template>
 
