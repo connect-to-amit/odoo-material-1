@@ -3,7 +3,7 @@
     <data>
         <template id="header_carousel" name="Carousel Header">
             <!-- carousel -->
-            <section id="myHeaderCarousel" class="header header-carousel carousel slide">
+            <section id="myHeaderCarousel" class="carousel slide">
 
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -13,37 +13,58 @@
                 </ol>
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner header-inner" role="listbox">
+                <div class="carousel-inner" role="listbox">
 
                     <!-- First slide -->
                     <div class="item active">
-                        <img src="/theme_material/static/src/img/demo/hp-01.jpg" alt="Image 1"/>
-                        <div class="header-caption">
-                            <h1>Clear copy that states what you're selling. 1</h1>
-                            <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.</p>
-                            <button class="btn btn-lg btn-primary btn-raised" href="#" role="button">
-                                Call to action
-                            </button>
+                        <div class=" jumbotron jumbotron-01 jumbotron-inverse text-center">
+                            <div class="container">
+                                <h1 class="jumbotron-title m-auto">Clear copy that states what you're selling. 1</h1>
+                                <p class="jumbotron-lead display-intro m-auto">Subheading that tells customers EXACTLY
+                                    what
+                                    you are selling and makes it sound
+                                    appealing.
+                                </p>
+                                <button class="btn btn-jumbotron btn-primary btn-raised m-auto" href="#" role="button">
+                                    Call to action
+                                </button>
+                            </div>
                         </div>
+
+
                     </div>
                     <!-- /.item -->
 
                     <!-- Second slide -->
                     <div class="item">
-                        <img src="/theme_material/static/src/img/demo/hp-02.jpg" alt="Image 2"/>
-                        <div class="header-caption">
-                            <h1>Clear copy that states what you're selling. 2</h1>
-                            <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.</p>
+                        <div class="jumbotron jumbotron-02 jumbotron-inverse text-center">
+                            <div class="container">
+                                <h1 class="jumbotron-title m-auto">Clear copy that states what you're selling. 2</h1>
+                                <p class="jumbotron-lead display-intro m-auto">Subheading that tells customers EXACTLY
+                                    what you are selling and makes it sound
+                                    appealing.
+                                </p>
+                                <button class="btn btn-jumbotron btn-primary btn-raised m-auto" href="#" role="button">
+                                    Call to action
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <!-- /.item -->
 
                     <!-- Third slide -->
                     <div class="item">
-                        <img src="/theme_material/static/src/img/demo/hp-04.jpg" alt="Image 3"/>
-                        <div class="header-caption">
-                            <h1>Clear copy that states what you're selling. 3</h1>
-                            <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.</p>
+                        <div class="jumbotron jumbotron-03 jumbotron-inverse text-center">
+                            <div class="container">
+                                <h1 class="jumbotron-title m-auto">Clear copy that states what you're selling. 3</h1>
+                                <p class="jumbotron-lead display-intro m-auto">Subheading that tells customers EXACTLY
+                                    what you are selling and makes it sound
+                                    appealing.
+                                </p>
+                                <button class="btn btn-jumbotron btn-primary btn-raised m-auto" href="#" role="button">
+                                    Call to action
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <!-- /.item -->

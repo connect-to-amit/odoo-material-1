@@ -2,20 +2,18 @@
 <openerp>
     <data>
         <template id="header_landing" name="Landing Header">
-            <section class="header header-landing">
-                <div class="header-inner">
-                    <img src="/theme_material/static/src/img/demo/hp-01.jpg" alt="Image 1"/>
-                    <div class="header-caption">
-                        <h1>Clear copy that states what you're selling.
-                        </h1>
-                        <p>Subheading that tells customers EXACTLY what you are selling and makes it sound appealing.
-                        </p>
-                        <button class="btn btn-lg btn-primary btn-raised" href="/page/website.contactus" role="button">
-                            Call to action
-                        </button>
-                    </div>
+            <section class="jumbotron jumbotron-home jumbotron-inverse text-center">
+                <div class="container">
+                    <h1 class="jumbotron-title m-auto">Clear copy that states what you're selling.
+                    </h1>
+                    <p class="jumbotron-lead display-intro m-auto">Subheading that tells customers EXACTLY what you are selling
+                        and makes it sound appealing.
+                    </p>
+                    <button class="btn btn-jumbotron btn-primary btn-raised m-auto" href="/page/website.contactus"
+                             role="button">
+                        Call to action
+                    </button>
                 </div>
-
             </section>
         </template>
     </data>

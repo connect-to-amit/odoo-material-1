@@ -82,6 +82,10 @@
                       type="text/less"/>
                 <link href="/theme_material/static/src/less/header.less" rel="stylesheet"
                       type="text/less"/>
+                <link href="/theme_material/static/src/less/jumbotron.less" rel="stylesheet"
+                      type="text/less"/>
+                <link href="/theme_material/static/src/less/carousel.less" rel="stylesheet"
+                      type="text/less"/>
                 <link href="/theme_material/static/src/less/sections.less" rel="stylesheet"
                       type="text/less"/>
                 <link href="/theme_material/static/src/less/dropdown.less" rel="stylesheet"
