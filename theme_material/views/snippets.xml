@@ -15,6 +15,9 @@
                        t-thumbnail="/website/static/src/img/blocks/block_button.png"/>
                     <t t-snippet="theme_material.how_it_works"
                        t-thumbnail="/website/static/src/img/blocks/block_well.png"/>
+                    <t t-snippet="theme_material.customer_ribbon"
+                       t-thumbnail="/website/static/src/img/blocks/block_well.png"/>
+
                 </div>
             </xpath>
 

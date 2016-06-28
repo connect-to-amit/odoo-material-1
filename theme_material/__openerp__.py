@@ -15,6 +15,7 @@
         'views/snippets/header_landing.xml',
         'views/snippets/header_page.xml',
         'views/snippets/header_landing.xml',
+        'views/snippets/customer_ribbon.xml',
         'views/snippets/img_txt.xml',
         'views/snippets/txt_img.xml',
         'views/snippets/customer_ribbon.xml',
